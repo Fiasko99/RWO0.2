@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserAccount</class>
+ <widget class="QMainWindow" name="UserAccount">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="font">
+   <font>
+    <family>Lucida Sans</family>
+    <pointsize>10</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Пользовать RWO</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+font: 10pt &quot;Lucida Sans&quot;;</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	align-text: center;
+	
+	background-color: #F8E6E0;
+}</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="main_widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+	background-color: #F8E6E0;
+	border-radius: 10px;
+}</string>
+      </property>
+      <layout class="QGridLayout" name="main">
+       <item row="0" column="0">
+        <widget class="QFrame" name="input_widget">
+         <property name="styleSheet">
+          <string notr="true">QFrame {
+	background-color: #ECCEF5;
+	padding: 10px;
+	height: 100%;
+}</string>
+         </property>
+         <layout class="QGridLayout" name="form_input">
+          <item row="1" column="1">
+           <widget class="QLabel" name="login_input_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>str</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="profile_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 63 18pt &quot;Lucida Sans&quot;;
+	color: #8181F7;
+}</string>
+            </property>
+            <property name="text">
+             <string>Имя пользователя</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="stars_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+	color: #8181F7;
+}</string>
+            </property>
+            <property name="text">
+             <string>status_variant</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="date_input_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>str</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="login_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+	color: #8181F7;
+}</string>
+            </property>
+            <property name="text">
+             <string>Логин:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_date">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+	color: #8181F7;
+}</string>
+            </property>
+            <property name="text">
+             <string>Дата рождения:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="follow_input_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>num</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_status">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+	color: #8181F7;
+}</string>
+            </property>
+            <property name="text">
+             <string>Статус:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="status_input_label">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	font: 10pt &quot;Lucida Sans&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>str</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="button_form">
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+	background-color: #ECCEF5;
+	padding: 5px;
+}</string>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <layout class="QGridLayout" name="form_button">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>6</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="user_content_btn">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: #F6D8CE;
+	font: 75 10pt &quot;Lucida Sans&quot;;
+	color: #2121F2;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+QPushButton:hover {
+	border: 2px solid gray;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Открыть историю постов</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
