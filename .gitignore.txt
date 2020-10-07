@@ -1,8 +1,0 @@
-# Default ignored files
-/.idea/shelf/
-/.idea/workspace.xml
-
-/Документы
-/venv
-
-/db_data.py
